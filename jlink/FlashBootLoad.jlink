@@ -1,0 +1,8 @@
+si 1
+exec device=stm32f407vg
+speed 4800
+h
+loadbin ../Boot.bin 0x08000000
+r
+g
+q

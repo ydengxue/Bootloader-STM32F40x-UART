@@ -1,0 +1,53 @@
+Dependencies for Project 'BootST32F40x', Target 'BootST32F40x': (DO NOT MODIFY !)
+F (.\src\Debug.c)(0x589A3AED)(-c --cpu Cortex-M4.fp -O3 --apcs=interwork -I C:\usr\bin\Keil\ARM\RV31\INC -I C:\usr\bin\Keil\ARM\CMSIS\Include -I C:\usr\bin\Keil\ARM\Inc\ST\STM32F4xx -o ".\build\debug.o" --depend ".\build\debug.d")
+I (C:\usr\bin\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB1B386)
+I (C:\usr\bin\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB1B37C)
+I (src\UserTypesDef.h)(0x4EF49AEC)
+I (src\Debug.h)(0x589A09DB)
+F (.\src\stm32f4xx_flash.c)(0x54B42E24)(-c --cpu Cortex-M4.fp -O3 --apcs=interwork -I C:\usr\bin\Keil\ARM\RV31\INC -I C:\usr\bin\Keil\ARM\CMSIS\Include -I C:\usr\bin\Keil\ARM\Inc\ST\STM32F4xx -o ".\build\stm32f4xx_flash.o" --depend ".\build\stm32f4xx_flash.d")
+I (src\stm32f4xx_flash.h)(0x5168E15E)
+I (src\stm32f4xx.h)(0x54F9E586)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50070A82)
+I (C:\usr\bin\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB1B384)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A3D8C)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB755C)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F591DE6)
+I (src\system_stm32f4xx.h)(0x54B8C102)
+F (.\src\startup_stm32f4xx.S)(0x54C834BE)(--cpu Cortex-M4.fp --apcs=interwork -I C:\usr\bin\Keil\ARM\RV31\INC -I C:\usr\bin\Keil\ARM\CMSIS\Include -I C:\usr\bin\Keil\ARM\Inc\ST\STM32F4xx --list ".\build\startup_stm32f4xx.lst" -o ".\build\startup_stm32f4xx.o" --depend ".\build\startup_stm32f4xx.d")
+F (.\src\Hardware.c)(0x589A4371)(-c --cpu Cortex-M4.fp -O3 --apcs=interwork -I C:\usr\bin\Keil\ARM\RV31\INC -I C:\usr\bin\Keil\ARM\CMSIS\Include -I C:\usr\bin\Keil\ARM\Inc\ST\STM32F4xx -o ".\build\hardware.o" --depend ".\build\hardware.d")
+I (C:\usr\bin\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB1B386)
+I (C:\usr\bin\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB1B384)
+I (src\STM32F40xRegister.h)(0x589A06C5)
+I (src\UserTypesDef.h)(0x4EF49AEC)
+I (src\Debug.h)(0x589A09DB)
+I (C:\usr\bin\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB1B386)
+I (src\stm32f4xx.h)(0x54F9E586)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50070A82)
+I (C:\usr\bin\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB1B384)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A3D8C)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB755C)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F591DE6)
+I (src\system_stm32f4xx.h)(0x54B8C102)
+F (.\src\main.c)(0x589A4BD7)(-c --cpu Cortex-M4.fp -O3 --apcs=interwork -I C:\usr\bin\Keil\ARM\RV31\INC -I C:\usr\bin\Keil\ARM\CMSIS\Include -I C:\usr\bin\Keil\ARM\Inc\ST\STM32F4xx -o ".\build\main.o" --depend ".\build\main.d")
+I (C:\usr\bin\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB1B386)
+I (src\STM32F40xRegister.h)(0x589A06C5)
+I (src\UserTypesDef.h)(0x4EF49AEC)
+I (src\Debug.h)(0x589A09DB)
+I (src\stm32f4xx.h)(0x54F9E586)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50070A82)
+I (C:\usr\bin\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB1B384)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A3D8C)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB755C)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F591DE6)
+I (src\system_stm32f4xx.h)(0x54B8C102)
+I (src\SystemBase.h)(0x568C421A)
+I (src\FileTypesDef.h)(0x54B994EE)
+I (src\stm32f4xx_flash.h)(0x5168E15E)
+F (.\src\system_stm32f4xx.c)(0x583F516A)(-c --cpu Cortex-M4.fp -O3 --apcs=interwork -I C:\usr\bin\Keil\ARM\RV31\INC -I C:\usr\bin\Keil\ARM\CMSIS\Include -I C:\usr\bin\Keil\ARM\Inc\ST\STM32F4xx -o ".\build\system_stm32f4xx.o" --depend ".\build\system_stm32f4xx.d")
+I (src\stm32f4xx.h)(0x54F9E586)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cm4.h)(0x50070A82)
+I (C:\usr\bin\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB1B384)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A3D8C)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB755C)
+I (C:\usr\bin\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x4F591DE6)
+I (src\system_stm32f4xx.h)(0x54B8C102)
