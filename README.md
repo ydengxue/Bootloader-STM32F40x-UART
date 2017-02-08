@@ -12,7 +12,7 @@ This is a simple bootloader designed for STM32F40x series MCU and is simplified 
 4. Support version control.
 
 The File2Bin.exe is used to generate the binary file that is supported by this bootloader. Its usage is:
-File2Bin.exe 0x01 Version Subversion Src Dest
+    File2Bin.exe 0x01 Version Subversion Src Dest
 
 The Appbin.bat is a demo of the usage of File2Bin.exe. The first parameter specifies the type of the application. It could be:
 0x01: Application Code
