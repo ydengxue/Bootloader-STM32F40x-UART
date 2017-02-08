@@ -4,7 +4,7 @@
 Author: **[Dengxue Yan](https://sites.google.com/site/ydengxue/)**
 ****
 
-This is a simple bootloader designed for STM32F40x series MCU and is simplified from my single-task OS. It has been tested on STM32F407VG. The bootloader occupies the lowest 16K internal flash. The purpose of this bootloader is to 
+This is a simple bootloader designed for STM32F40x series MCU and is simplified from my single-task OS. It has been tested on STM32F407VG. The bootloader occupies the lowest 16K internal flash. The purpose of this bootloader is to:
 
 1. Support user application update online,
 2. Support CRC verification,
@@ -28,4 +28,4 @@ The user application binary will be put at 0x8020000. So you need to change the 
  
 The code is compiled by Keil ARM-MDK V4.6.
 
-If you are interested in the code of gcc version, please send me email at dengxue.yan@wustl.edu
+If you are interested in the code of gcc version or the bootloader of TMS320C674x series and Blackfin series, please send me email at dengxue.yan@wustl.edu
